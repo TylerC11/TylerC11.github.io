@@ -1,0 +1,306 @@
+/* Container styling */
+#container {
+    min-width: 360px; /* Minimum width for the container */
+    max-width: 640px; /* Maximum width for the container */
+}
+
+/* Body styling */
+body {
+    background-color: tan; /* Background color for the body */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    max-width: 1920px; /* Max width for body */
+    width: 100%; /* Full width for the body */
+    margin: 0 auto; /* Center-align the body */
+    font-size: 20px; /* Increase base font size */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Heading 1 styling */
+h1 {
+    color: lime; /* Set lime color for h1 */
+    margin: 0; /* Remove margin */
+    margin-top: auto; /* Set margin-top to auto */
+    font-size: 2rem; /* Set font size */
+    background-color: black; /* Set background color */
+    text-align: center; /* Center the text */
+}
+
+/* Horizontal rule styling */
+hr {
+    height: 5px; /* Set height for horizontal rule */
+    background-color: lime; /* Set lime color */
+    border-color: lime; /* Set border color */
+    margin-bottom: 0; /* Remove bottom margin */
+    box-shadow: none; /* Remove shadow */
+    color: lime; /* Set color */
+}
+
+/* Styling for elements with the class 'line2' */
+.line2 {
+    margin-top: 10px; /* Add margin-top */
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: none; /* Remove list style */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+/* Skills section styling */
+#skills {
+    border: 3px solid black; /* Black border */
+    width: 100%; /* Full width */
+    padding: 20px; /* Add padding */
+}
+
+/* Flexbox layout for elements */
+.flex {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Space out the elements */
+}
+
+/* Hero section styling */
+#hero {
+    border: 3px solid black; /* Black border */
+    width: 100%; /* Full width */
+    margin-bottom: 0; /* Remove bottom margin */
+    display: block; /* Block display */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the content horizontally */
+}
+
+/* Hero section heading styling */
+#hero h2 {
+    font-size: 2.5rem; /* Increase font size */
+    text-align: center; /* Center align */
+    margin-top: 20px; /* Add top margin */
+}
+
+/* Main menu container styling */
+#main-menu {
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Max width for menu */
+    margin: 0 auto; /* Center-align */
+    text-align: center; /* Center-align menu items */
+}
+
+/* Styling for mission button */
+.mission-button {
+    margin: 0 auto; /* Center-align */
+    position: relative; /* Relative positioning */
+}
+
+/* Styling for links in the main menu */
+#main-menu a {
+    padding: 1rem; /* Padding for links */
+}
+
+/* Styling for the unordered list inside #main-menu */
+#main-menu ul {
+    justify-content: space-between; /* Space out the list items */
+}
+
+/* Styling for the first list item in the main menu */
+#main-menu li:first-child {
+    margin-right: auto; /* Add right margin */
+}
+
+/* Styling for the last list item in the main menu */
+#main-menu li:last-child {
+    margin-left: auto; /* Add left margin */
+}
+
+/* Mission section styling */
+#mission {
+    border: 3px solid black; /* Black border */
+    width: 100%; /* Full width */
+    order: 2; /* Set order to 2 */
+    padding: 20px; /* Add padding */
+}
+
+/* Resume section styling */
+#resume {
+    border: 3px solid black; /* Black border */
+    width: 100%; /* Full width */
+    padding: 20px; /* Add padding */
+}
+
+/* Styling for list items */
+li {
+    width: 20%; /* Set width for list items */
+}
+
+/* Button styling */
+.button {
+    border: none; /* Remove border */
+    display: inline-block; /* Inline block display */
+    padding: 15px 40px; /* Padding for the button */
+    margin: 10px; /* Margin around button */
+    color: black; /* Text color */
+    background: linear-gradient(145deg, lime, lime); /* Lime gradient background */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove text decoration */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold font */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background: linear-gradient(145deg, lime, lime); /* Lime gradient background on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    transform: translateY(-3px); /* Lift button effect */
+}
+
+/* Flex layout for unordered list inside .flex */
+ul.flex {
+    justify-content: space-between; /* Space out the list items */
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Hero image styling */
+.hero-image {
+    width: 100%; /* Full width for responsiveness */
+    max-width: 500px; /* Set max-width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Block display */
+    margin: 0 auto 20px auto; /* Center align and add margin */
+}
+
+/* Styling for skills image container */
+.skills-image {
+    flex: 0 0 200px; /* Set flex properties */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center align */
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Add padding */
+}
+
+/* Class for monospace font */
+.one {
+    font-family: "Lucida Console", "Courier New", monospace; /* Monospace font */
+}
+
+/* Styling for line1 class */
+.line1 {
+    font-family: "Lucida Console", "Courier New", monospace; /* Monospace font */
+}
+
+/* Footer image styling */
+.footer-image {
+    height: 200px; /* Set height */
+    width: 100%; /* Full width */
+    display: block; /* Block display */
+    margin: 20px auto; /* Center the image */
+}
+
+/* Styling for resume link */
+.resume-link {
+    display: inline-block; /* Inline-block display */
+    padding: 15px 30px; /* Padding for link */
+    margin: 10px 0; /* Margin around the link */
+    color: black; /* Text color */
+    background: linear-gradient(145deg, lime, lime); /* Lime gradient background */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove text decoration */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold font */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+/* Hover effect for resume link */
+.resume-link:hover {
+    background: linear-gradient(145deg, lime, lime); /* Lime gradient background */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    transform: translateY(-3px); /* Lift effect */
+}
+
+/* Contact information list styling */
+.contact-info {
+    list-style-type: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+    margin-top: 20px; /* Add top margin */
+}
+
+/* Styling for contact information list items */
+.contact-info li {
+    font-size: 1.1rem; /* Font size */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styling for social media links container */
+.social-links {
+    margin-top: 20px; /* Add top margin */
+}
+
+/* Social media icons styling */
+.social-icons {
+    list-style-type: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space out the items */
+}
+
+/* Styling for social media list items */
+.social-icons li {
+    margin: 5px; /* Add margin around each item */
+}
+
+/* Social button styling */
+.social-button {
+    display: inline-block; /* Inline-block display */
+    padding: 12px 20px; /* Padding for buttons */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove text decoration */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold font */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+/* Hover effect for social buttons */
+.social-button:hover {
+    transform: translateY(-3px); /* Lift effect */
+}
+
+/* Specific social media button styles */
+.facebook {
+    background-color: lime; /* Facebook background */
+}
+
+.instagram {
+    background-color: lime; /* Instagram background */
+}
+
+/* Media query for screens with width >= 768px */
+@media (min-width: 768px) {
+    #container {
+        max-width: 1200px; /* Max width for container */
+        margin: 0 auto; /* Center container */
+        text-align: center; /* Center align content */
+        background-color: #0056b3; /* Change background color */
+    }
+    #skills, #hero, #resume, #mission {
+        border: 3px solid lime; /* Change border color */
+    }
+}
